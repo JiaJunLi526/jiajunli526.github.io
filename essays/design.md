@@ -10,7 +10,7 @@ labels:
   - Design
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/design/design.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/design/design.png">
 
 ## Manoa Guesser App
 When we were building Manoa Guesser, I started noticing that our codebase was slowly turning into a messy garage. There were files all over the place, random logic shoved into components it didn’t belong in, and every time something broke we had to dig through layers of confusion just to find out why. It wasn’t that our code was “bad,” it was more that the structure wasn’t really planned out. We were given good templates at the start, but once we tried adding real features, things fell apart pretty quickly.
