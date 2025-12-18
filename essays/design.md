@@ -4,7 +4,7 @@ type: essay
 title: "The Code Patterns I Didn’t See Coming"
 # All dates must be YYYY-MM-DD format!
 date: 2025-12-03
-published: true
+published: false
 labels:
   - Learning
   - Design
