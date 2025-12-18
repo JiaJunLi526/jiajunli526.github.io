@@ -16,6 +16,7 @@ summary: "Final project for ICS 314."
 <div class="text-center p-4">
   <img width="400px" src="../img/manoa-guesser/homepage.png" class="img-thumbnail" >
   <img width="400px" src="../img/manoa-guesser/admin.png" class="img-thumbnail" >
+  <img width="400px" src="../img/manoa-guesser/admin2.png" class="img-thumbnail" >
 </div>
 
 Manoa Guesser is a gamified exploration web application designed to help students at the University of Hawaiʻi at Mānoa become more familiar with campus locations. Players are shown photos taken around campus and must guess where each photo was taken using an interactive map. The goal of the project is to make learning the campus layout more engaging through friendly competition, while also allowing the community to contribute new content through photo submissions that are reviewed by administrators.
@@ -28,11 +29,16 @@ I designed and implemented the home and landing page to introduce the app in a c
 
 In addition to the landing page, I updated the navigation bar to support smoother movement between core pages such as Home, Game, Leaderboard, and Submission. I focused on keeping the layout clean, consistent, and responsive so that users could always understand where they were in the app and easily move between features. Alongside this, I refined the login and signup pages to provide a more polished and consistent experience while keeping all authentication logic fully intact.
 
+<img width="600px" src="../img/manoa-guesser/homepage.png" class="img-thumbnail" >
+
 ## Building Admin Tools and Moderation Workflows
 
 A large portion of my work involved building the foundation for admin functionality. I implemented a responsive admin dashboard using React-Bootstrap layout components, creating a clean structure that can scale as more administrative features are added. I also created admin-only edit pages that allow administrators to update user and game-related data. These pages load existing records, present them in clear forms, enforce basic validation, and provide confirmation or error feedback after updates are submitted.
 
 I also worked on content moderation features to support the community-driven nature of the app. I connected the admin interface to image submission data so administrators can view pending images with relevant details, approve or delete submissions, and see the interface update correctly when there are no items to review. To complement this, I added a user image reporting system that allows players to flag inappropriate or incorrect images. These reports are surfaced in the admin interface with key information so administrators can make quick moderation decisions.
+
+<img width="600px" src="../img/manoa-guesser/admin2.png" class="img-thumbnail" >
+<img width="600px" src="../img/manoa-guesser/admin.png" class="img-thumbnail" >
 
 ## Refining Accounts, Data, and Long-Term Maintainability
 
