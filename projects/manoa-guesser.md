@@ -14,8 +14,8 @@ summary: "Final project for ICS 314."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/manoa-guesser/homepage.png" class="img-thumbnail" >
-  <img width="200px" src="../img/manoa-guesser/admin.png" class="img-thumbnail" >
+  <img width="400px" src="../img/manoa-guesser/homepage.png" class="img-thumbnail" >
+  <img width="400px" src="../img/manoa-guesser/admin.png" class="img-thumbnail" >
 </div>
 
 Manoa Guesser is a gamified exploration web application designed to help students at the University of Hawaiʻi at Mānoa become more familiar with campus locations. Players are shown photos taken around campus and must guess where each photo was taken using an interactive map. The goal of the project is to make learning the campus layout more engaging through friendly competition, while also allowing the community to contribute new content through photo submissions that are reviewed by administrators.
