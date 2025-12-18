@@ -8,6 +8,7 @@ published: true
 labels:
   - Bootstrap
   - React
+  - Next.js
   - Software Engineering
 summary: "Final project for ICS 314."
 ---
@@ -42,3 +43,5 @@ Finally, I made several account and maintenance-related improvements. I implemen
 Working on Manoa Guesser helped me better understand how real software projects evolve beyond simply adding features. I learned how important consistency is when multiple people are contributing to the same application, especially in terms of layout, navigation, and visual design. Establishing shared patterns early makes the app easier to maintain and extend over time.
 
 I also gained experience designing admin and moderation tools, which require more careful consideration than standard user-facing features. These tools must be secure, reliable, and clear, since mistakes can directly affect users and content quality. Overall, this project reinforced that good software engineering is about building systems that are not only functional, but also maintainable, scalable, and easy for both users and developers to work with.
+
+Learn more from our [Manoa Guesser GitHub](https://manoa-guesser.github.io/).
