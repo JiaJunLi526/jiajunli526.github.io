@@ -29,19 +29,20 @@ I designed and implemented the home and landing page to introduce the app in a c
 
 In addition to the landing page, I updated the navigation bar to support smoother movement between core pages such as Home, Game, Leaderboard, and Submission. I focused on keeping the layout clean, consistent, and responsive so that users could always understand where they were in the app and easily move between features. Alongside this, I refined the login and signup pages to provide a more polished and consistent experience while keeping all authentication logic fully intact.
 
-<img width="600px" src="../img/manoa-guesser/homepage.png" class="img-thumbnail" >
 <p align="center">
-  <img width="600px" src="../img/manoa-guesser/homepage.png" class="img-thumbnail">
+  <img width="700px" src="../img/manoa-guesser/homepage.png" class="img-thumbnail">
 </p>
 ## Building Admin Tools and Moderation Workflows
 
 A large portion of my work involved building the foundation for admin functionality. I implemented a responsive admin dashboard using React-Bootstrap layout components, creating a clean structure that can scale as more administrative features are added. I also created admin-only edit pages that allow administrators to update user and game-related data. These pages load existing records, present them in clear forms, enforce basic validation, and provide confirmation or error feedback after updates are submitted.
 
 I also worked on content moderation features to support the community-driven nature of the app. I connected the admin interface to image submission data so administrators can view pending images with relevant details, approve or delete submissions, and see the interface update correctly when there are no items to review. To complement this, I added a user image reporting system that allows players to flag inappropriate or incorrect images. These reports are surfaced in the admin interface with key information so administrators can make quick moderation decisions.
-
-<img width="600px" src="../img/manoa-guesser/admin2.png" class="img-thumbnail" >
-<img width="600px" src="../img/manoa-guesser/admin.png" class="img-thumbnail" >
-
+<p align="center">
+  <img width="700px" src="../img/manoa-guesser/admin2.png" class="img-thumbnail" >
+</p>
+<p align="center">
+  <img width="700px" src="../img/manoa-guesser/admin.png" class="img-thumbnail" >
+</p>
 ## Refining Accounts, Data, and Long-Term Maintainability
 
 Finally, I made several account and maintenance-related improvements. I implemented username selection during user sign-up and enforced uniqueness to prevent duplicate usernames. I also updated the Edit User page styling to better match the rest of the application without changing its functionality. Additionally, I removed outdated score-editing functionality after scoring was migrated to a new Prisma database, helping reduce confusion and eliminate broken UI elements.
